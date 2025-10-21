@@ -94,7 +94,7 @@ SMS-Spam-Classifier/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/SMS-Spam-Classifier.git
+git clone https://github.com/JaiswarYash/SPAM-SMS-DETECTION.git
 cd SMS-Spam-Classifier
 ```
 
@@ -161,7 +161,7 @@ mkdir -p ~/.streamlit/
 
 echo "\
 [general]\n\
-email = \"your-email@example.com\"\n\
+email = \"yash.jaiswar0709@gmail.com\"\n\
 " > ~/.streamlit/credentials.toml
 
 echo "\
@@ -352,11 +352,11 @@ Contributions are welcome! Please follow these steps:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [MIT](LICENSE) file for details.
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Yash Jaiswar** - *Initial work* - [mr-yash-dev](https://github.com/JaiswarYash/SPAM-SMS-DETECTION.git)
 
 ## 🙏 Acknowledgments
 
@@ -369,8 +369,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback, please reach out:
 - Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [@YashJaiswar](https://github.com/JaiswarYash/SPAM-SMS-DETECTION.git)
+- LinkedIn: [Your Name](https://www.linkedin.com/in/yash-jaiswar-266849301/)
 
 ## 📸 Screenshots
 
