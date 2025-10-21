@@ -7,33 +7,33 @@ A comprehensive machine learning application for detecting spam messages in SMS 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 🌟 Features
+## Features
 
-### 🔍 **Single Message Prediction**
+### **Single Message Prediction**
 - Real-time classification of individual SMS messages
 - Confidence scores for both spam and ham predictions
 - Visual probability distribution charts
 - Message preprocessing insights
 
-### 📊 **Batch Processing**
+### **Batch Processing**
 - Upload CSV files for bulk message classification
 - Download prediction results as CSV
 - Comprehensive batch statistics and visualizations
 - Support for custom column selection
 
-### 📈 **Data Exploration**
+### **Data Exploration**
 - Interactive dataset visualization
 - Class distribution analysis (Pie charts, Bar graphs)
 - Message length distribution by class
 - Statistical summaries
 
-### 🤖 **Model Training**
+### **Model Training**
 - Train multiple ML algorithms simultaneously
 - Compare model performance metrics
 - Customizable hyperparameters
 - Automatic best model selection and persistence
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 SMS-Spam-Classifier/
@@ -53,7 +53,7 @@ SMS-Spam-Classifier/
 └── README.md                           # Project documentation
 ```
 
-## 📊 Dataset Information
+## Dataset Information
 
 **Source:** SMS Spam Collection Dataset (Kaggle)
 
@@ -86,7 +86,7 @@ SMS-Spam-Classifier/
 - **Pandas & NumPy:** Data manipulation
 - **Matplotlib & Seaborn:** Visualization
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -123,7 +123,7 @@ nltk.download('stopwords')
 ### Step 5: Prepare Dataset
 Place your `spam.csv` file in the `data/sms-spam-collection-dataset/` directory.
 
-## 💻 Usage
+## Usage
 
 ### Running Locally
 
@@ -139,7 +139,7 @@ The application will open in your default browser at `http://localhost:8501`
 jupyter notebook notebooks/Preprocess&EDA&models.ipynb
 ```
 
-### 🚀 Deployment on Heroku
+### Deployment on Heroku
 
 Deploy your SMS Spam Classifier to Heroku for public access:
 
@@ -264,7 +264,7 @@ git push heroku main
 - App sleeps after 30 minutes of inactivity on free tier
 - Consider upgrading to Hobby ($7/month) for 24/7 uptime
 
-## 📱 Application Modes
+## Application Modes
 
 ### 1️⃣ Single Prediction
 1. Navigate to "Single Prediction" from the sidebar
@@ -292,7 +292,7 @@ git push heroku main
 4. Compare model performances
 5. Best model is automatically saved
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
@@ -302,7 +302,7 @@ git push heroku main
 
 *Note: Exact metrics may vary based on data split and preprocessing*
 
-## 🔧 Text Preprocessing Pipeline
+## Text Preprocessing Pipeline
 
 ```python
 Input Message → Remove Punctuation → Lowercase Conversion → 
@@ -310,7 +310,7 @@ Remove Numbers → Tokenization → Remove Stopwords →
 Stemming → Vectorization → Model Prediction
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 streamlit>=1.28.0
@@ -324,7 +324,7 @@ nltk>=3.8.0
 
 See `requirements.txt` for complete list.
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 - [ ] Deep Learning models (LSTM, BERT)
 - [ ] Multi-language support
@@ -340,7 +340,7 @@ See `requirements.txt` for complete list.
 - [ ] User authentication system
 - [ ] API endpoint for third-party integration
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -350,22 +350,22 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [MIT](LICENSE) file for details.
 
-## 👥 Authors
+## Authors
 
 - **Yash Jaiswar** - *Initial work* - [mr-yash-dev](https://github.com/JaiswarYash/SPAM-SMS-DETECTION.git)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - SMS Spam Collection Dataset from Kaggle
 - Streamlit community for excellent documentation
 - scikit-learn developers
 - NLTK contributors
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please reach out:
 - Email: yash.jaiswar0709@gmail.com
