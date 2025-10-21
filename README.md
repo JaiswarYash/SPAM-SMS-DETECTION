@@ -368,7 +368,7 @@ This project is licensed under the MIT License - see the [MIT](LICENSE) file for
 ## 📧 Contact
 
 For questions or feedback, please reach out:
-- Email: your.email@example.com
+- Email: yash.jaiswar0709@gmail.com
 - GitHub: [@YashJaiswar](https://github.com/JaiswarYash/SPAM-SMS-DETECTION.git)
 - LinkedIn: [yashjaiswar](https://www.linkedin.com/in/yash-jaiswar-266849301/)
 
